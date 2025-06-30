@@ -1,0 +1,27 @@
+name: spatial-gcn-demo
+channels:
+  - conda-forge
+  - pytorch
+  - pyg
+dependencies:
+  - python
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - networkx
+  - streamlit
+  - plotly
+  - pytorch
+  - pytorch_geometric
+  - torch-scatter
+  - torch-sparse
+  - torch-cluster
+  - torch-spline-conv
+  - statsmodels
+  - pip:
+    - black
+    - pylint
